@@ -1,0 +1,76 @@
+
+/* Resposive design */
+@media(max-width: 1140px){
+	.opinions—container{
+		justify-content: center;
+		gap: 70px;
+	}
+}
+
+@media(max-width: 840px){
+	.footer_container{
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+	}
+}
+
+@media(max-width: 768px){
+	.hero_container{
+		flex-direction: column;
+		padding: 20px 0;
+	}
+	.hero_left{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.opinions—container,.get_started_container{
+		flex-direction: column;
+		text-align: center;
+		
+	}
+	.opinion{
+		margin-top: 10px;
+		max-width: 400px;
+	}
+
+	.opinion_text {
+		line-height: 29px;
+	}
+
+	.get_started_right{
+		margin-top: 20px;
+	}
+	.footer_container{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column-reverse;
+	}
+	.links{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media(max-width: 430px){
+	.hero_description{
+		padding: 0 5px;
+	}
+	.opinion_text{
+		padding: 0 15px;
+	}
+}
+
+
+@media(max-width: 370px){
+	.text_wrapper{
+		width: 300px;
+	}
+	.text_field{
+		width: 100%;
+	}
+
+}
