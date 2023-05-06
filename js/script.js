@@ -1,11 +1,14 @@
-const accordion = document.querySelectorAll(".content_wrapper")
+const label = document.querySelectorAll(".label")
 
-accordion.forEach((item) => {
+label.forEach((item) => {
    item.classList.remove("active")
+   
    item.addEventListener("click", () => {
+      item.parentNode.classList.toggle("active-content")
       item.classList.toggle("active")
    })
-})
+
+}) 
 
 var swiper = new Swiper(".mySwiper", {
    slidesPerView: 1,

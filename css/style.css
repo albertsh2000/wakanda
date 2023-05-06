@@ -318,16 +318,16 @@ h1 {
    border-radius: 3px;
 }
 
-.content_wrapper.active .content {
+.content_wrapper.active-content .content {
    height: 140px;
    padding: 10px;
 }
 
-.content_wrapper.active .rotate-btn span {
+.label.active .rotate-btn span {
    transform: rotate(90deg);
 }
 
-.content_wrapper.active .rotate-btn span:last-child {
+.label.active .rotate-btn span:last-child {
    left: 50%;
    right: 50%;
 }
@@ -353,7 +353,7 @@ h1 {
 
 .rotate-btn span {
    position: absolute;
-   transition: 300ms;
+   transition: 270ms;
    background: #fff;
    border-radius: 2px;
 }
